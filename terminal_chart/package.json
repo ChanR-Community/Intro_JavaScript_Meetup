@@ -1,0 +1,20 @@
+{
+  "name": "terminal_chart",
+  "version": "1.0.0",
+  "description": "A demo to visualize data in a Terminal using Node.js",
+  "main": "terminal_chart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "visualization",
+    "data",
+    "nodejs"
+  ],
+  "author": "Rishov Chatterjee",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.20"
+  }
+}
