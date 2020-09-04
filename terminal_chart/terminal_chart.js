@@ -43,6 +43,18 @@ bar.setData({
 // Rendering the Visualization
 screen.render()
 
+// Getting More Data for the Table
+const yelp_keys_2 = Object.keys(yelp_obj).slice(0,20)
+const yelp_values_2 = Object.values(yelp_obj).slice(0,20)
+
+var table_data = []
+
+for (var i = 0; i < yelp_keys_2.length; i++) {
+  table_row = [yelp_keys_2[i], yelp_values_2[i]]
+  table_data.push(table_row)
+}
+
+
 // Creating a Table
 
 // Uncomment lines below
@@ -61,11 +73,7 @@ screen.render()
 // // Adding Data to the Table
 // table.setData({
 //   headers: ['Yelp Category', 'Value Counts'],
-//   data: [[yelp_keys[0], yelp_values[0]],
-//    [yelp_keys[1], yelp_values[1]],
-//     [yelp_keys[2], yelp_values[2]],
-//      [yelp_keys[3], yelp_values[3]],
-//       [yelp_keys[4], yelp_values[4]]]
+//   data: table_data
 // })
 //
 // screen.render()
