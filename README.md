@@ -84,7 +84,7 @@ let company = {"name":"ChanR", "place": "Calfornia", "founder": "Rishov", "Websi
 ```
 <br>
 So it has like a key("name", "place", etc) and a value("ChanR", "Calfornia", etc)
-<br> 
+<br>
 <br>
 
 **Array**
@@ -139,7 +139,8 @@ We go inside the array in the variable `a_array`, so that array is at the `4th` 
 console.log(a_array[4])
 ```
 <br>
-Now we add another `[ ]` after there to say go inside this array and get the index `2` which is `7`.
+
+Now we add another `[]` after there to say go inside this array and get the index `2` which is `7`.
 
 ```js
 console.log(a_array[4][2])
