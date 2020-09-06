@@ -84,7 +84,9 @@ let company = {"name":"ChanR", "place": "Calfornia", "founder": "Rishov", "Websi
 ```
 <br>
 So it has like a key("name", "place", etc) and a value("ChanR", "Calfornia", etc)
-<br> <br>
+<br> 
+<br>
+
 **Array**
 
 It can store many values.
