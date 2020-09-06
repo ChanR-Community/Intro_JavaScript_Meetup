@@ -154,6 +154,7 @@ console.log(a_array[4][2])
 `!=` = Not equal to
 `==` = Equal to
 `variable++` = Increase number(variable) by 1
+`**` = Exponent
 
 **If statements**
 
@@ -197,19 +198,19 @@ for (let step=0; step<5; step++) {
 }
 ```
 
-A `For of` loop will outputs an array's data (strings, numbers)
+A `for of` loop will outputs an array's data (strings, numbers)
 
 ```js
 const types = [ 'object', 'array', 'string', 'integer', 'float', 'boolean' ]
 
-// For ... of loop
+// For of loop
 
 for (const type of types) {
   console.log(type)
 }
 ```
 
-A `For in` loops will outputs an array's indices(plural of index)
+A `for in` loops will outputs an array's indices(plural of index)
 
 ```
 // For ... in loop
@@ -225,5 +226,43 @@ let a = 4
 while (a < 5) {
   a++ // Means increase a so we dont get an infinte loop
   console.log("Not any more!")
+}
+```
+
+### Functions
+
+In a function you give an input and the function does somethings and outputs things
+
+In JS you make a function like this
+```js
+function hello() {
+  console.log("Hi")
+}
+
+hello() // Outputs Hi
+```
+
+You see `hello` is the function name, and we put paranthesis after it so as it can tell the user what type of input it wants, and the code in the `{ }` takes that input and and does some stuff with it and outputs it.
+
+You just need to call the function.
+
+
+So you could have a function like this
+```js
+function find_root(number) {
+  console.log(number**0.5)
+}
+```
+Lets say you pass 2 in it will output the square root of 2.
+<br>
+*(which i forgot what it is...)*
+
+**Function DataType**
+
+There is also another datatype thats called the function datatype, in it you assign a function to a variable. This is also called an **Anonymous Function** as it has no name(expect the variable name).
+
+```js
+let x = function() {
+  console.log("Hello")
 }
 ```
