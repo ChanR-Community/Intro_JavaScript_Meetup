@@ -150,13 +150,21 @@ console.log(a_array[4][2])
 **Basic Operators**
 
 `>` = Greater than
+<br>
 `<` = Less than
+<br>
 `<=` = Greater than or equal to
+<br>
 `>=` = Less than or equal to
+<br>
 `!=` = Not equal to
+<br>
 `==` = Equal to
+<br>
 `variable++` = Increase number(variable) by 1
+<br>
 `**` = Exponent
+<br>
 
 **If statements**
 
