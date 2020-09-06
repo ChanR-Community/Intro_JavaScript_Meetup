@@ -22,7 +22,7 @@ We will learn about
 
 ***So what is a variable?***
 
-A variable is something that is not knowan, and can have any type of <u>Data</u>.
+A variable is something that is not known, and can have any type of <u>Data</u>.
 
 ---
 <br>
